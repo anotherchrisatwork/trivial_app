@@ -23,6 +23,7 @@ gem 'simple_form', '~> 5.0.1'
 group :development do
   gem "capistrano", "~> 3.10", require: false
   gem "capistrano-rails", "~> 1.4", require: false
+  gem 'capistrano-passenger', '~> 0.2.0'
 end
 
 group :development, :test do
