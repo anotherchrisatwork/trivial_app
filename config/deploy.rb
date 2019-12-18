@@ -2,7 +2,7 @@
 lock "~> 3.11.2"
 
 set :application, "trivial_app"
-set :repo_url, "git@example.com:me/my_repo.git"
+set :repo_url, "https://github.com/anotherchrisatwork/trivial_app.git"
 
 # Deploy to htdocs
 set :deploy_to, "/home/chris/install/httpd/htdocs/#{fetch :application}/production"
